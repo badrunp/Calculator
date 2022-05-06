@@ -4,8 +4,7 @@ import Calculator from "./components/Calculator";
 function App() {
   useEffect(() => {
     document.title = "Calculator";
-  }),
-    [];
+  }, []);
   return <Calculator />;
 }
 
